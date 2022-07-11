@@ -1,0 +1,29 @@
+.stories {
+  padding: 1em;
+
+  background-color: #f5f0eb;
+  border: 1px solid #DCCAB8;
+
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+
+  width: 65%;
+}
+
+@media screen and (max-width: 1050px){
+  .stories{
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .stories{
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    margin: 1rem 0 1rem 0;
+  }
+}

@@ -1,0 +1,35 @@
+.suggestion_header__img{
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+  padding: 2px;
+  display: block;
+  margin-right: 2px;
+}
+
+.suggestion_header__header {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.suggestion_header__header p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestion_header__header p:nth-child(3) {
+  color: rgb(71, 209, 255);
+  cursor: pointer;
+  display: flex;
+}
+
+.suggestion_header__profile {
+  min-width: 200px;
+}
+
+.suggestions_header {
+  position: sticky;
+  top: 0;
+}
